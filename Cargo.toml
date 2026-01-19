@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "poly-manifold-core",
+    "poly-manifold-spaces",
+    "poly-manifold-autodiff",
+]
+resolver = "2"
+
+[workspace.dependencies]
+nalgebra = "0.33"
+num-traits = "0.2"
+thiserror = "2.0"
+anyhow = "1.0"
+approx = "0.5"
